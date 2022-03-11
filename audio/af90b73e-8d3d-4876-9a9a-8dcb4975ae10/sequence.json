@@ -1,0 +1,1802 @@
+{
+  "duration": 3391.29,
+  "loop": false,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "1-track",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "b969c6e8-4428-45fa-802b-16088c5c25f6"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "b969c6e8-4428-45fa-802b-16088c5c25f6"
+                ],
+                "invertCondition": true
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 44.47,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000000\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000000\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 47.96,
+          "duration": 257.97,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000001\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000001\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 313.33,
+          "duration": 9.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 330.44,
+          "duration": 7.97,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 353.32,
+          "duration": 5.4,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 364.66,
+          "duration": 4.3,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 375.03,
+          "duration": 4.89,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 384.21,
+          "duration": 7.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.24,
+          "duration": 7.41,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 418.21,
+          "duration": 3.15,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 428.21,
+          "duration": 223.22,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000010\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000010\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 653.02,
+          "duration": 641.97,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000011\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000011\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 1308.21,
+          "duration": 1640.32,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000012\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000012\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 2950.82,
+          "duration": 3.9,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000013.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 2963.92,
+          "duration": 426.34,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000014\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/01_track_000014\\manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "2-track",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "5db26983-09a6-4ddd-ad51-22b6e7b8de1e"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "5db26983-09a6-4ddd-ad51-22b6e7b8de1e"
+                ],
+                "invertCondition": true
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 44.47,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000000\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000000\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 47.97,
+          "duration": 257.95,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000001\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000001\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 313.33,
+          "duration": 9.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 330.44,
+          "duration": 7.97,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 353.33,
+          "duration": 6.1,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 364.66,
+          "duration": 5.38,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 375.03,
+          "duration": 4.54,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 384.21,
+          "duration": 7.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.24,
+          "duration": 7.5,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 418.21,
+          "duration": 3.15,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 428.2,
+          "duration": 223.1,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000010\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000010\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 653.02,
+          "duration": 2295.51,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000011\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000011\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 2950.77,
+          "duration": 3.91,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000012.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 2963.92,
+          "duration": 426.34,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000013\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/02_track_000013\\manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "3-track",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "8b394ed1-ee41-4217-9ad8-e24c72b7c69a"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "8b394ed1-ee41-4217-9ad8-e24c72b7c69a"
+                ],
+                "invertCondition": true
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 44.47,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000000\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000000\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 47.97,
+          "duration": 257.95,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000001\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000001\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 313.33,
+          "duration": 9.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 330.44,
+          "duration": 7.97,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 353.33,
+          "duration": 6.05,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 364.66,
+          "duration": 4.4,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 375.03,
+          "duration": 3.8,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 384.21,
+          "duration": 7.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.24,
+          "duration": 7.5,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 418.21,
+          "duration": 3.15,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 428.21,
+          "duration": 223.08,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000010\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000010\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 653.02,
+          "duration": 2295.52,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000011\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000011\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 2950.76,
+          "duration": 3.9,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000012.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 2963.92,
+          "duration": 426.34,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000013\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/03_track_000013\\manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "4-track",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "6595f2d3-7ec9-4eca-8781-67345e6d847e"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "6595f2d3-7ec9-4eca-8781-67345e6d847e"
+                ],
+                "invertCondition": true
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 44.47,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000000\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000000\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 47.97,
+          "duration": 257.95,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000001\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000001\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 313.33,
+          "duration": 9.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 330.44,
+          "duration": 7.97,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 353.23,
+          "duration": 5.02,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 364.66,
+          "duration": 5.52,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 375.03,
+          "duration": 4.09,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 384.21,
+          "duration": 7.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.24,
+          "duration": 7.5,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 418.21,
+          "duration": 3.15,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 428.21,
+          "duration": 223.08,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000010\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000010\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 653.02,
+          "duration": 641.93,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000011\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000011\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 1308.21,
+          "duration": 1640.32,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000012\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000012\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 2950.58,
+          "duration": 3.91,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000013.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 2963.92,
+          "duration": 426.34,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000014\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/04_track_000014\\manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "5-track",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "14c1df51-a98d-4e2c-9d74-06a4daaa815c"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "14c1df51-a98d-4e2c-9d74-06a4daaa815c"
+                ],
+                "invertCondition": true
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 44.47,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000000\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000000\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 47.97,
+          "duration": 257.95,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000001\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000001\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 313.33,
+          "duration": 9.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 330.44,
+          "duration": 7.97,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 353.33,
+          "duration": 5.14,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 364.66,
+          "duration": 4.45,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 375.03,
+          "duration": 4.89,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 384.21,
+          "duration": 7.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.24,
+          "duration": 7.54,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 418.21,
+          "duration": 3.15,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 428.21,
+          "duration": 223.08,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000010\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000010\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 653.02,
+          "duration": 635.91,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000011\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000011\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 1308.21,
+          "duration": 1640.32,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000012\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000012\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 2950.58,
+          "duration": 3.91,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000013.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 2963.92,
+          "duration": 426.34,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000014\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/05_track_000014\\manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "6-track",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "4b7754ee-c64e-4a03-b3bc-cc80964b2fb0"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "4b7754ee-c64e-4a03-b3bc-cc80964b2fb0"
+                ],
+                "invertCondition": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "session.numDevices",
+                "operator": "lessThanOrEqual",
+                "value": 5,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 44.47,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000000\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000000\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 47.97,
+          "duration": 257.95,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000001\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000001\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 313.33,
+          "duration": 9.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 330.44,
+          "duration": 7.97,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 353.32,
+          "duration": 5.4,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 364.66,
+          "duration": 4.3,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 375.03,
+          "duration": 4.89,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 384.21,
+          "duration": 7.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.24,
+          "duration": 7.54,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 418.21,
+          "duration": 3.15,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 428.21,
+          "duration": 223.09,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000010\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000010\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 653.02,
+          "duration": 2295.51,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000011\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000011\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 2950.58,
+          "duration": 3.91,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000012.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 2963.92,
+          "duration": 426.34,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000013\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/06_track_000013\\manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "7-track",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "01de1d38-6ae0-49ee-a288-ef1f5a78d878"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "01de1d38-6ae0-49ee-a288-ef1f5a78d878"
+                ],
+                "invertCondition": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "session.numDevices",
+                "operator": "lessThanOrEqual",
+                "value": 5,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 44.47,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000000\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000000\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 47.97,
+          "duration": 257.95,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000001\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000001\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 313.33,
+          "duration": 9.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 330.44,
+          "duration": 7.97,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 353.21,
+          "duration": 6.1,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 364.73,
+          "duration": 5.38,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 374.91,
+          "duration": 4.54,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 384.09,
+          "duration": 7.78,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.13,
+          "duration": 7.62,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 418.09,
+          "duration": 3.15,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 428.21,
+          "duration": 223.08,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000010\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000010\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 653.02,
+          "duration": 2295.51,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000011\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000011\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 2950.58,
+          "duration": 3.91,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000012.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 2963.92,
+          "duration": 426.34,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000013\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/07_track_000013\\manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "8-track",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "dee22213-0e47-42e6-a819-47e9247d3fe0"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "dee22213-0e47-42e6-a819-47e9247d3fe0"
+                ],
+                "invertCondition": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "session.numDevices",
+                "operator": "lessThanOrEqual",
+                "value": 5,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 44.48,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000000\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000000\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 48.02,
+          "duration": 257.91,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000001\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000001\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 313.33,
+          "duration": 9.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 330.44,
+          "duration": 7.97,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 353.21,
+          "duration": 6.05,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 364.79,
+          "duration": 3.8,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 374.95,
+          "duration": 4.4,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 384.09,
+          "duration": 7.78,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.13,
+          "duration": 7.58,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 418.09,
+          "duration": 3.15,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 428.15,
+          "duration": 223.14,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000010\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000010\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 653.02,
+          "duration": 2295.52,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000011\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000011\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 2950.58,
+          "duration": 3.91,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000012.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 2963.89,
+          "duration": 426.37,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000013\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/08_track_000013\\manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "9-track",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "4229889f-76ca-431d-af6c-d6ca7717fe0a"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "deviceControls.9b820df9-318c-46fe-9c66-4245effe4bef",
+                "operator": "anyOf",
+                "value": [
+                  "4229889f-76ca-431d-af6c-d6ca7717fe0a"
+                ],
+                "invertCondition": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "session.numDevices",
+                "operator": "lessThanOrEqual",
+                "value": 5,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 44.47,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000000\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000000\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 47.97,
+          "duration": 257.95,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000001\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000001\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 313.33,
+          "duration": 9.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 330.44,
+          "duration": 7.97,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 353.28,
+          "duration": 4.3,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 364.75,
+          "duration": 5.4,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 375.03,
+          "duration": 4.89,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 384.21,
+          "duration": 7.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 403.09,
+          "duration": 7.54,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 418.21,
+          "duration": 3.15,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000009.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 428.21,
+          "duration": 223.08,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000010\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000010\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 653.02,
+          "duration": 2295.52,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000011\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000011\\manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 2950.58,
+          "duration": 3.91,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000012.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 2963.89,
+          "duration": 426.37,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000013\\manifest.mpd",
+            "urlSafari": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/09_track_000013\\manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}

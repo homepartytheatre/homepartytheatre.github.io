@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bundle.css" />
+    <title>Home Party Theatre</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="bundle.js"></script>
+    <script>
+      
+      
+      
+      
+
+      // Any value specified in config.js may be overwritten here without having to rebuild the app.
+      const config = {
+  "LOCAL_SESSION_ID_PREFIX": "bbcat-orchestration-template",
+  "INITIAL_CONTENT_ID": "64ba8598-477b-4a9c-9de4-a13381c50e2c",
+  "SEQUENCE_URLS": [
+    {
+      "name": "Intro",
+      "contentId": "64ba8598-477b-4a9c-9de4-a13381c50e2c",
+      "url": "audio/64ba8598-477b-4a9c-9de4-a13381c50e2c/sequence.json",
+      "hold": false,
+      "skippable": true,
+      "instructions": true,
+      "next": [
+        {
+          "contentId": "f332e932-5271-4d52-ba76-c5d3c1aee52d",
+          "label": "Vælg dit track"
+        }
+      ]
+    },
+    {
+      "name": "Vælg track",
+      "contentId": "f332e932-5271-4d52-ba76-c5d3c1aee52d",
+      "url": "audio/f332e932-5271-4d52-ba76-c5d3c1aee52d/sequence.json",
+      "hold": false,
+      "skippable": true,
+      "instructions": false,
+      "next": [
+        {
+          "contentId": "af90b73e-8d3d-4876-9a9a-8dcb4975ae10",
+          "label": "Game start"
+        }
+      ]
+    },
+    {
+      "name": "HPT Start",
+      "contentId": "af90b73e-8d3d-4876-9a9a-8dcb4975ae10",
+      "url": "audio/af90b73e-8d3d-4876-9a9a-8dcb4975ae10/sequence.json",
+      "hold": true,
+      "skippable": false,
+      "instructions": false,
+      "next": [
+        {
+          "contentId": "64ba8598-477b-4a9c-9de4-a13381c50e2c",
+          "label": "Tilbage til intro"
+        }
+      ]
+    }
+  ],
+  "CONTROLS": [
+    {
+      "controlId": "9b820df9-318c-46fe-9c66-4245effe4bef",
+      "controlName": "Vælg dit track (OBS: kun én per track)",
+      "controlType": "radio",
+      "controlDefaultValues": [],
+      "controlParameters": {
+        "options": [
+          {
+            "label": "Track 1 (Host)",
+            "value": "b969c6e8-4428-45fa-802b-16088c5c25f6"
+          },
+          {
+            "label": "Track 2",
+            "value": "5db26983-09a6-4ddd-ad51-22b6e7b8de1e"
+          },
+          {
+            "label": "Track 3",
+            "value": "8b394ed1-ee41-4217-9ad8-e24c72b7c69a"
+          },
+          {
+            "label": "Track 4",
+            "value": "6595f2d3-7ec9-4eca-8781-67345e6d847e"
+          },
+          {
+            "label": "Track 5",
+            "value": "14c1df51-a98d-4e2c-9d74-06a4daaa815c"
+          },
+          {
+            "label": "Track 6",
+            "value": "4b7754ee-c64e-4a03-b3bc-cc80964b2fb0"
+          },
+          {
+            "label": "Track 7",
+            "value": "01de1d38-6ae0-49ee-a288-ef1f5a78d878"
+          },
+          {
+            "label": "Track 8",
+            "value": "dee22213-0e47-42e6-a819-47e9247d3fe0"
+          },
+          {
+            "label": "Track 9",
+            "value": "4229889f-76ca-431d-af6c-d6ca7717fe0a"
+          }
+        ]
+      },
+      "controlBehaviours": [
+        {
+          "behaviourId": "fdfc599d-3ce7-48a9-932b-5d5fa97190a8",
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "perDeviceGainAdjust": 1
+          }
+        },
+        {
+          "behaviourId": "8116fd89-d4cb-4563-82b2-d0dc828fdbfe",
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "conditionId": "c0f1d5a0-c5fc-4b4f-9dc5-59302d894955",
+                "property": "device.deviceIsMain",
+                "operator": "anyOf",
+                "value": [
+                  "true",
+                  "false"
+                ],
+                "invertCondition": false
+              },
+              {
+                "conditionId": "1a6c3f0d-241f-4ca8-85de-015010eff3e1",
+                "property": "session.currentContentId",
+                "operator": "anyOf",
+                "value": [
+                  "64ba8598-477b-4a9c-9de4-a13381c50e2c",
+                  "af90b73e-8d3d-4876-9a9a-8dcb4975ae10"
+                ],
+                "invertCondition": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "CLOUDSYNC_ENDPOINT": {
+    "hostname": "cloudsync.virt.ch.bbc.co.uk"
+  },
+  "TEXT_TITLE": "Home Party Theatre",
+  "TEXT_SUBTITLE": "",
+  "TEXT_INTRODUCTION": "Introduction",
+  "TEXT_START_LABEL": "Start new session",
+  "TEXT_JOIN_LABEL": "Join existing session",
+  "ACCENT_COLOUR": "#006def",
+  "DEBUG_UI": true,
+  "ENABLE_TUTORIAL": false,
+  "MDO_COMPRESSOR_RATIO": 2,
+  "MDO_COMPRESSOR_THRESHOLD": 0,
+  "OBJECT_FADE_OUT_DURATION": 0,
+  "PLAYER_IMAGE_URL": "images/89a26cb6-d564-4b9e-ae67-984173fea243.png",
+  "TEXT_PLAYER_IMAGE_ALT": ""
+};
+
+      // Instantiate the React app to render into the #app div:
+      initOrchestrationTemplate(document.getElementById('app'), config);
+    </script>
+    <noscript>
+      This page requires JavaScript to be enabled.
+    </noscript>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "duration": 180.95,
+  "loop": true,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "10-Elevator",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedEverywhere"
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 180.95,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/64ba8598-477b-4a9c-9de4-a13381c50e2c/10_Elevator_000000\\manifest.mpd",
+            "urlSafari": "audio/64ba8598-477b-4a9c-9de4-a13381c50e2c/10_Elevator_000000\\manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}
